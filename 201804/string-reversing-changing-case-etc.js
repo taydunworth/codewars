@@ -16,7 +16,7 @@ function reverseAndMirror(s1,s2) {
       (n == n.toUpperCase()) ? n = n.toLowerCase() : n = n.toUpperCase();
       i += 1;
       s += n;
-    }
+    }Heads
     return s;
   } return convertString(reverseCombo);
 }
