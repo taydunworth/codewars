@@ -6,5 +6,5 @@
 
 function validPhoneNumber(phoneNumber){
   let phoneRegex = /^\(\d{3}\)\s{1}\d{3}-\d{4}$/
-  return phoneRegex.test(phoneNumber) ? true : false
+  return phoneRegex.test(phoneNumber)
 }
