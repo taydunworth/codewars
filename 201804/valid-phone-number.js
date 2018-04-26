@@ -6,7 +6,5 @@
 
 function validPhoneNumber(phoneNumber){
   let phoneRegex = /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/
-  return phoneRegex.test(phoneNumber) ? true : false
+  return phoneRegex.test(phoneNumber) && phoneNumber.length === 14 ? true : false
 }
-
-console.log(validPhoneNumber(812));
